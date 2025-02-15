@@ -1,20 +1,19 @@
-# Backup Script
+# Backup System
 
-### *About*
+## About
 
-This is a script to make backups of entire directories.
+This is a simple backup system made in bash where the user can create new .tar backups of various directories and manage the backups.
 
-When used, the scrip is going to validate if the `$HOME/Backups/` directory exists, if so, the script will open a menu, other wise, the script will create the `$HOME/Backups/` and then the menu will be opened.
+## Instalation
 
-There are 2 options:
+To install it you first need to git clone this repo via https or ssh, then add the backup-system directory to your `$PATH`, this will be important to make the script executable anywhere in the operating sistem.
 
-- Make a backup
-- List all backups
+Then give the correct execution permissions to the script (I recommend 744).
 
-If the first option is selected the script will ask for a directory to make a backup of its files.
+## Contributing
 
-Then the script is going to compress a copy of all files cointeined into the indicated directorie to a .tar file.
+Feel free to contribute with any improvements that you think that are aplicable to this project.
 
-If the second option was selected the script will list all the backups made using this script.
+## Author
 
-### *SamCouto, November 23th, 2024*
+Samuel Couto
